@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>File Metadata Microservice</title>
+    <meta name="File Metadata Microservice" content="FCC API Project 5">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        FreeCodeCamp API Project: File Metadata Microservice
+      </h1>
+    </header>
+
+    <main>
+    <div id="userstories">
+      <blockquote>
+                User stories:
+                <ul>1) User can submit a FormData object that includes a file upload.</ul>
+                <ul>2) When user uploads file, user will receive the file size in bytes within the JSON response.</ul>
+      </blockquote>
+    </div>
+      <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="file">Please Upload A File</label>
+        <input type="file" id="file" name="file"> 
+        <input id="button" type="submit">
+      </form>
+    </main>
+
+    <footer>
+     <a target = "_blank" href="https://github.com/jeuscortez">
+       Completed By: Jesus Cortez</a>
+    </footer>
+      
+  </body>
+</html>
